@@ -1,0 +1,23 @@
+GET http://localhost:8080/api/v1/demo-controller
+
+###
+POST http://localhost:8080/api/v1/auth/register
+Content-Type: application/json
+
+{
+    "firstname": "Dominik",
+    "lastname": "Fischer",
+    "email": "fischerklon3@gmail.com",
+    "password": "1234"
+}
+
+###
+POST http://localhost:8080/api/v1/auth/authenticate
+Content-Type: application/json
+
+{
+"firstname": "Dominik",
+"lastname": "Fischer",
+"email": "fischerklon3@gmail.com",
+"password": "1234"
+}

@@ -1,6 +1,5 @@
 package com.ryoshi.SpringSecurity.user;
 
-import com.ryoshi.SpringSecurity.user.Role;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
